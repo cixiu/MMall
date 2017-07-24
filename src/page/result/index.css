@@ -1,0 +1,26 @@
+/*
+* @Author: cixiu
+* @Date:   2017-07-24 17:01:40
+* @Last Modified by:   cixiu
+* @Last Modified time: 2017-07-24 17:23:08
+*/
+.page-wrap{
+	margin-top: 20px;
+	padding: 30px 0;
+	text-align: center;
+	background: #fff;
+}
+.result-con{
+	display: none;
+}
+.result-con .result-title{
+	color: #555;
+}
+.result-con .result-content{
+	margin-top: 20px;
+}
+.result-con .result-content .link{
+	margin: 0 5px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}

@@ -1,0 +1,23 @@
+/*
+* @Author: cixiu
+* @Date:   2017-07-24 12:12:32
+* @Last Modified by:   cixiu
+* @Last Modified time: 2017-07-24 21:08:22
+*/
+.footer{
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+.footer .links{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+.footer .links .link{
+	padding: 0 10px;
+}
+.footer .copyright{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}

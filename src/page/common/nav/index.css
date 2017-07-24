@@ -1,0 +1,30 @@
+/*
+* @Author: cixiu
+* @Date:   2017-07-24 11:36:50
+* @Last Modified by:   cixiu
+* @Last Modified time: 2017-07-24 11:50:04
+*/
+
+.nav{
+	height: 30px;
+	line-height: 30px;
+	background: #eee;
+}
+/* 用户部分 */
+.nav .user{
+	float: left;
+}
+.nav .user.login{
+	display: none;
+}
+.nav .user .link{
+	margin-right: 5px;
+}
+/* 导航链接部分 */
+.nav .nav-list{
+	float: right;
+}
+.nav .nav-list .nav-item{
+	display: inline-block;
+	margin-left: 5px;
+}
