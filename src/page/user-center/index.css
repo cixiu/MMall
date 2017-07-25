@@ -1,0 +1,20 @@
+/*
+* @Author: cixiu
+* @Date:   2017-07-25 12:50:34
+* @Last Modified by:   cixiu
+* @Last Modified time: 2017-07-25 16:16:22
+*/
+
+.form-line{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.form-line .label{
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+}
+.form-line .text{
+	margin-left: 10px;
+}

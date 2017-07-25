@@ -2,7 +2,7 @@
 * @Author: cixiu
 * @Date:   2017-07-24 00:39:26
 * @Last Modified by:   cixiu
-* @Last Modified time: 2017-07-24 10:39:49
+* @Last Modified time: 2017-07-25 15:39:54
 */
 
 /* css reset */
@@ -24,12 +24,33 @@ img{
 label, input[type='checkbox']{
 	cursor: pointer;
 }
+a{
+	text-decoration: none;
+}
 
 /* 定宽布局 */
 .w{
 	position: relative;
 	width: 1080px;
 	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* panel */
+.panel{
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #fff;
+}
+.panel .panel-title{
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+}
+.panel .panel-body{
+	padding: 10px;
 	overflow: hidden;
 }
 

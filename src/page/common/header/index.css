@@ -2,7 +2,7 @@
 * @Author: cixiu
 * @Date:   2017-07-24 12:26:46
 * @Last Modified by:   cixiu
-* @Last Modified time: 2017-07-24 13:30:18
+* @Last Modified time: 2017-07-25 15:21:58
 */
 .header .logo{
 	position: absolute;
@@ -29,4 +29,15 @@
 	position: absolute;
 	wihth: 80px;
 	height: 44px;
+}
+
+/* 面包屑导航 */
+.crumb{
+	height: 50px;
+	margin-bottom: 15px;
+	border-top: 2px solid #c60023;
+	line-height: 50px;
+	font-size: 14px;
+	color: #888;
+	background: #eee;
 }
