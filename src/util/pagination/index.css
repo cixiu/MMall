@@ -1,0 +1,36 @@
+/*
+* @Author: cixiu
+* @Date:   2017-07-26 16:33:30
+* @Last Modified by:   cixiu
+* @Last Modified time: 2017-07-26 19:03:53
+*/
+
+.pg-content{
+	text-align: center;
+	color: #333;
+}
+.pg-content .pg-item{
+	display: inline-block;
+	height: 36px;
+	margin-right: 2px;
+	padding: 0 15px;
+	line-height: 36px;
+	border: 1px solid #ccc;
+	background: #eee;
+	cursor: pointer;
+}
+.pg-content .pg-item.disabled{
+	color: #ccc;
+	background: none;
+	cursor: auto;
+}
+.pg-content .pg-item.active{
+	border: none;
+	background: none;
+	cursor: auto;
+}
+.pg-content .pg-total{
+	margin-left: 10px;
+	background: none;
+	cursor: auto;
+}

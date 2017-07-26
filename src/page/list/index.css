@@ -1,0 +1,81 @@
+/*
+* @Author: cixiu
+* @Date:   2017-07-26 09:48:42
+* @Last Modified by:   cixiu
+* @Last Modified time: 2017-07-26 19:51:28
+*/
+
+.sort-con{
+	overflow: auto;
+}
+.sort-con .sort-item{
+	position: relative;
+	float: left;
+	display: inline-block;
+	height: 24px;
+	margin-right: -1px;
+	padding: 0 8px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	color: #333;
+	background: #fff;
+	cursor: pointer;
+}
+.sort-con .sort-item.active{
+	color: #fff;
+	background: #c60023;
+	border: 1px solid #c60023;
+}
+.sort-con .sort-item .fa-sort-desc{
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+.sort-con .sort-item.asc .fa-sort-desc{
+	opacity: 0.6;
+}
+.sort-con .sort-item.desc .fa-sort-asc{
+	opacity: 0.6;
+}
+
+/* 列表 */
+.p-list-con{
+	margin-top: 15px;
+	margin-right: -20px;
+	overflow: hidden;
+}
+.p-list-con .p-item{
+	float: left;
+	position: relative;
+	width: 180px;
+	padding: 10px;
+	margin: 0 20px 20px 0;
+	background: #fff;
+}
+.p-list-con .p-item:hover{
+	box-shadow: 0 0 10px #ccc;
+}
+.p-list-con .p-item .p-img{
+	width: 180px;
+	height: 200px;
+}
+.p-list-con .p-item .p-price{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #e7380d;
+}
+.p-list-con .p-item .p-name-con{
+	height: 40px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.p-list-con .p-item .p-name-con .p-name{
+	line-height: 20px;
+	margin-bottom: 10px;
+	color: #666;
+}
