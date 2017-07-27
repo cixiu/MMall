@@ -1,0 +1,128 @@
+/*
+* @Author: cixiu
+* @Date:   2017-07-27 09:05:07
+* @Last Modified by:   cixiu
+* @Last Modified time: 2017-07-27 10:49:11
+*/
+
+.cart-table{
+	width: 100%;
+	border: 1px solid #ebebeb;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+.cart-header{
+	background: #eee;
+}
+.cart-table .cart-cell{
+	height: 40px;
+	line-height: 40px;
+}
+.cart-table .cell-check{
+	width: 6%;
+	padding-left: 20px;
+	text-align: left;
+}
+.cart-table .cell-img{
+	width: 10%;
+	text-align: left;
+}
+.cart-table .cell-img .p-img{
+	width: 80px;
+	height: 80px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+}
+.cart-table .cell-info{
+	width: 35%;
+	text-align: left;
+}
+.cart-header .cell-info{
+	width: 45%;
+	padding-left: 107px;
+}
+.cart-table .cell-price{
+	width: 10%;
+	text-align: center;
+}
+.cart-table .cell-count{
+	width: 15%;
+	text-align: center;
+}
+.cart-table .cell-count .count-input{
+	display: inline-block;
+	width: 60px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: middle;
+	outline: none;
+	color: #333;
+}
+.cart-table .cell-count .count-btn{
+	display: inline-block;
+	width: 20px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: middle;
+	color: #333;
+	background: #fff;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.cart-table .cell-total{
+	width: 14%;
+	text-align: center;
+	font-weight: bold;
+}
+.cart-table .cell-operate{
+	width: 10%;
+	text-align: center;
+}
+
+.cart-footer{
+	position: relative;
+	line-height: 50px;
+	background: #eee;
+	overflow: hidden;
+}
+.cart-footer .select-con{
+	float: left;
+	padding-left: 20px;
+}
+.cart-footer .delete-con{
+	float: left;
+	margin-left: 20px;
+}
+.cart-footer .submit-con{
+	float: right;
+}
+.cart-footer .submit-con .submit-total{
+	margin-right: 30px;
+	font-size: 18px;
+	fonw-weight: bold;
+	color: #c60023;
+	vertical-align: middle;
+}
+.cart-footer .submit-con .btn-submit{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.page-wrap .err-tip{
+	height: 60px;
+	line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f60;
+    background: #eee;
+    text-align: center;
+}
