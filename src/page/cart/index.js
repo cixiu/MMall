@@ -2,7 +2,7 @@
 * @Author: cixiu
 * @Date:   2017-07-27 09:05:00
 * @Last Modified by:   cixiu
-* @Last Modified time: 2017-07-28 18:09:33
+* @Last Modified time: 2017-07-28 21:25:40
 */
 
 require('./index.css');
@@ -13,6 +13,9 @@ var _cart = require('service/cart-service.js');
 var templateIndex = require('./index.string');
 
 var page = {
+	data: {
+
+	},
 	init: function () {
 		this.onLoad();
 		this.bindEvent();
