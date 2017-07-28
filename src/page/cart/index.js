@@ -2,7 +2,7 @@
 * @Author: cixiu
 * @Date:   2017-07-27 09:05:00
 * @Last Modified by:   cixiu
-* @Last Modified time: 2017-07-27 13:49:55
+* @Last Modified time: 2017-07-28 18:09:33
 */
 
 require('./index.css');
@@ -13,9 +13,6 @@ var _cart = require('service/cart-service.js');
 var templateIndex = require('./index.string');
 
 var page = {
-	data: {
-		
-	},
 	init: function () {
 		this.onLoad();
 		this.bindEvent();
@@ -118,7 +115,7 @@ var page = {
 		// 去结算
 		$(document).on('click', '.btn-submit', function() {
 			if (_this.data.cartInfo && _this.data.cartInfo.cartTotalPrice > 0 ) {
-				window.location.href = './confirm.html';
+				window.location.href = './order-confirm.html';
 			} else {
 				_mm.errorTips('请先选择商品在进行结算~~');
 			}
